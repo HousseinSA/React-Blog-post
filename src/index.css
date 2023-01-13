@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  color: #333;
+  box-sizing: border-box;
+  line-height: 1.2;
+}
+.navbar {
+  max-width: 40rem;
+  padding: 1rem 0;
+  margin: 2rem auto;
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  border-bottom: 1px solid #dddcdc;
+}
+.navbar nav {
+  margin-left: auto;
+}
+.navbar h1 {
+  color: #4f7a7a;
+}
+
+.navbar a,
+a {
+  text-decoration: none;
+  margin-left: 1rem;
+  color: #333;
+}
+.navbar a:hover {
+  color: #4f7a7a;
+}
+.home,
+.create-blog,
+.blog-details,
+.notFound {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 0.4rem;
+}
+.allblogs {
+  margin-top: 1rem;
+  padding: 0 0.4rem;
+}
+.blog-container {
+  display: flex;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-bottom: 1px solid #dddcdc;
+  align-items: center;
+}
+.author {
+  color: #4f7a7a;
+  font-weight: bold;
+}
+.blog-container h3 {
+  margin-bottom: 0.2rem;
+}
+
+.btn  {
+  padding: .5rem 1.5rem;
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+.blog-container:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+h3,
+h2 {
+  color: #4f7a7a;
+}
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4f7a7a;
+  height: 100vh;
+}
+.error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4f7a7a;
+  height: 100vh;
+}
+.create-blog form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+label {
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+input,
+textarea {
+  border: 1.2px solid #4f7a7a;
+  padding: 0.4rem 0.2rem;
+}
+input,
+textarea:focus {
+  outline: none;
+}
+.create-blog button {
+  margin: 1rem auto;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 0.4rem;
+  background-color: #4f7a7a;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.notFound{
+  margin-bottom: .2rem;
+}
+.notFound p {
+  font-size: 1rem;
+  margin-top: .3rem;
+}
+.notFound button{
+  width: 10rem;
+  padding: .5rem 1rem ;
+  display: inline-block;
+  margin-top: 1rem;
+}
