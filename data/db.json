@@ -31,12 +31,6 @@
       "id": 7
     },
     {
-      "title": "fas",
-      "author": "fas",
-      "content": "fasd",
-      "id": 8
-    },
-    {
       "title": "fasd",
       "author": "fasd",
       "content": "fasdfds",
@@ -47,6 +41,12 @@
       "author": "fasd",
       "content": "fasdfda",
       "id": 11
+    },
+    {
+      "title": "pray ",
+      "author": "sam smith",
+      "content": "i don't want to fucking pray i hate god.'\n",
+      "id": 12
     }
   ]
 }

@@ -12,7 +12,6 @@ export default function CreateBlog() {
     setIsloading(true)
     e.preventDefault()
     const newBlog = { title, author, content }
-    console.log(newBlog)
     fetch("http://localhost:8000/Blogs", {
       method: "POST",
       headers: { "content-type": "application/json" },
@@ -22,6 +21,7 @@ export default function CreateBlog() {
   return (
     <div className="create-blog">
       <form onSubmit={handelSubmit}>
+        <h1>New Blog</h1>
         <label>Blog Title:</label>
         <input
           value={title}

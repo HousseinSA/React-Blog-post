@@ -1,9 +1,9 @@
-import React from "react"
-import { Link } from "react-router-dom"
-export default function BlogList({ blog, title, deleteBtn }) {
+import React from "react";
+import {Link} from "react-router-dom";
+export default function BlogList({blog, title}) {
   return (
     <>
-      <h2>Home Page</h2>
+      <h1>Home Page</h1>
       <h2 className="allblogs">{title}</h2>
       {blog.map((blog) => {
         return (
@@ -16,10 +16,9 @@ export default function BlogList({ blog, title, deleteBtn }) {
                 </p>
               </div>
             </Link>
-      
           </div>
-        )
+        );
       })}
     </>
-  )
+  );
 }
