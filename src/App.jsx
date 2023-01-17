@@ -11,7 +11,7 @@ export default function App() {
       <NavBar />
       <Routes>
         <Route path="/" exact element={<Home />} />
-        <Route path="/create-blog" exact element={<CreateBlog />} />
+        <Route path="/new-blog" exact element={<CreateBlog />} />
         <Route path="/blogs/:id" exact element={<BlogDetails />} />
         <Route path="/*" exact element={<NotFoundPage />} />
       </Routes>
